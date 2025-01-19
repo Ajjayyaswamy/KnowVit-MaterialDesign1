@@ -89,10 +89,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Code-Samvit:build:production"
+              "buildTarget": "KnowVit:build:production"
             },
             "development": {
-              "buildTarget": "Code-Samvit:build:development"
+              "buildTarget": "KnowVit:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -100,7 +100,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Code-Samvit:build"
+            "buildTarget": "KnowVit:build"
           }
         },
         "test": {
